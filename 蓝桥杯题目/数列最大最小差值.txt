@@ -1,0 +1,30 @@
+
+//数列求最大最小值的差值最小
+#include <iostream>
+using namespace std;
+int main()
+{
+    int T;
+    cin >> T;
+    int n;
+    int a[10][1000];
+    int b[10][1000];
+    int t = 0;
+    while (t != T) {
+        cin >> n;
+        for (int i = 0; i < n; i++) {
+            cin >> a[t][i];
+        }
+        for (int i = 0; i < n; i++) {
+            cin >> b[t][i];
+        }
+        t++;
+    }
+    t = 0;
+    while (t != T) {
+        for(int i=0;i<n;)
+    }
+    
+
+
+}
