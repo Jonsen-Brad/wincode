@@ -15,28 +15,28 @@ void Preorder (BiTree T){
     }
 }
 
-void Preorder(BiTree T){
-    if(T){
-        if(T->lchild){
-            T = T->lchild;
-            Preorder(T);
-        }
-        if(T->rchild){
-            cout << T->data;
-            Preorder(T->parent->rchild);
-            Preorder(T->rchild);
-            T = T-
-        }
-        else{
-            cout << T->data;
-            T = T->parent;
-            cout << T->data;
-            Preorder(T->rchild);
+// void Preorder(BiTree T){
+//     if(T){
+//         if(T->lchild){
+//             T = T->lchild;
+//             Preorder(T);
+//         }
+//         if(T->rchild){
+//             cout << T->data;
+//             Preorder(T->parent->rchild);
+//             Preorder(T->rchild);
+//             T = T-
+//         }
+//         else{
+//             cout << T->data;
+//             T = T->parent;
+//             cout << T->data;
+//             Preorder(T->rchild);
             
-        }
-    }
+//         }
+//     }
     
-}
+// }
 //LDR
 void Preorder(BiTree T){
     if(T){
